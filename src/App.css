@@ -1,0 +1,70 @@
+
+
+/* Estilo general del cuerpo */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Encabezado principal */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Estilo de la lista de personajes */
+ul {
+  list-style-type: none; /* Quita los puntos de la lista */
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #ecf0f1; /* Color al pasar el mouse */
+}
+
+/* Estilos de los botones */
+button {
+  background-color: #3498db; /* Color del botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9; /* Color al pasar el mouse sobre el botón */
+}
+
+/* Detalles del personaje */
+.character-detail {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Formulario de personaje */
+.character-form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
